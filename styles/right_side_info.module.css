@@ -1,0 +1,63 @@
+.right-list .search input{
+    height: 48px;
+    width: 100%;
+    border: 0px rgb(153,153,153) solid;
+    font-size: 15px;
+    
+}
+
+.right-list .search,.about, .social-media p {
+  color: rgb(17, 17, 17);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14.4px;
+  margin-bottom: 30px;
+  font-family: 'Open Sans', sans-serif;
+}
+.right-list .search, .about, .social-media {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px #ddd solid;
+}
+.right-list .about p:nth-child(3){
+  font-size: 15px;
+  line-height: 25px;
+  margin-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: rgb(68, 68, 68);
+  font-family: 'Open Sans', sans-serif;
+  font-family: 400;
+  text-align: center;
+}
+.social-widget-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.social-widget-icons a {
+  font-size: 45px;
+  color: black;
+  text-align: center;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+.social-widget-icons a:hover {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .social-widget-icons a {
+    flex-basis: 30%;
+  }
+}
+
+.right-list .link a {
+  display: inline-block;
+  width: 100%;
+}
+.right-list img {
+  width: 100%;
+}

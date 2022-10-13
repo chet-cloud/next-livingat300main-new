@@ -1,0 +1,91 @@
+.img-board * {
+    border: 0px red solid;
+  }
+
+  .img-board {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+
+  .img-board .a{
+    flex-basis: 100%;
+  }
+
+  .img-board .b{
+    flex-basis: 100%;
+  }
+
+  .img-board .c{
+  }
+
+  .img-board .d{
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .img-board .d div{
+    flex-basis: 50%;
+  }
+
+  @media screen and (min-width: 768px) {
+    .img-board {
+      flex-direction: row;
+    }
+  }
+
+  
+
+
+  .textOnImage {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .textOnImage img {
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+  }
+
+  /* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_zoom_hover */
+  .textOnImage img:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+  }
+
+  .textOnImage a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .time {
+    color: white;
+    text-decoration: none;
+  }
+
+  .separator {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .textOnImage .text-content {
+    position: absolute;
+    bottom: 0;
+    
+  }
+
+  .textOnImage .text-content p:first-child {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+
+  .textOnImage .text-content p:nth-child(2) {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+  }

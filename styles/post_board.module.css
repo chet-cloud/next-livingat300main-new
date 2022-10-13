@@ -1,0 +1,121 @@
+.list * {
+    border:0px blue solid;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 1200px;
+  }
+
+  .list .left-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .list .post {
+    flex-basis: 100%;
+  }
+
+  @media screen and (min-width: 480px) {
+    .list .post:not(:nth-child(3n-2)) {
+      flex-basis: 47%;
+    }
+    .list {
+      padding: 0 20px 0 20px;
+    }
+  }
+
+  .list .right-list div {
+  }
+
+
+  @media screen and (min-width: 768px) {
+    .list {
+      flex-wrap: nowrap;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .left-list {
+      flex-basis: 70%;
+    }
+    .right-list {
+      flex-basis: 24%;
+      position: -webkit-sticky; /* for Safari */
+      position: sticky;
+      top: 60px;
+      align-self: flex-start; /* <-- this is the fix */
+    }
+  }
+
+  .post article a {
+    width: 100%;
+    display: inline-block;
+    overflow: hidden;
+    text-decoration: none;
+  }
+
+  .post article img {
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+  }
+
+  .post article img:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+  }
+
+  .post .a-title a {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    font-family: 'Playfair Display', sans-serif;
+    color: rgb(17, 17, 17);
+  }
+
+  .post .a-description a {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(68, 68, 68);
+  }
+
+  .post .readmore a {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 18.333px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(118, 118, 118);
+  }
+
+
+
+
+  .load-more {
+    flex-basis: 100%;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    position: relative;
+  }
+  .load-more div {
+    text-align: center;
+  }
+  .load-more a {
+    display: inline-block;
+    background-color: rgb(24, 24, 30);
+    font-size: 11px;
+    font-weight: 700;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    border-radius: 180px;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+  .load-more a:hover {box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
