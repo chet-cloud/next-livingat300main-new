@@ -1,7 +1,7 @@
-.tags-follow-post{
+.tags_follow_post{
     margin-top: 45px;
 }
-.tags-follow-post a{
+.tags_follow_post a{
     padding: 5px 7px 5px 7px;
     background-color: rgb(242,242,242);
     text-decoration: none;
@@ -12,7 +12,7 @@
     display: inline-block;
     line-height: 1;
 }
-.tags-follow-post a::before{
+.tags_follow_post a::before{
     content: "#";
 }
 
