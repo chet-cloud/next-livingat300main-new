@@ -1,0 +1,31 @@
+.right_menu {
+    z-index: 2;
+    transition: width 2s;
+  }
+  
+  .right_menu_open {
+    width: 80%;
+    
+  } 
+  
+  .right_menu_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  
+    overflow: hidden;
+    background-color: black;
+    height: 100%;
+  }
+  
+  .right_menu_container a {
+    margin-bottom: 7px;
+    padding-left: 45px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+  }

@@ -1,0 +1,47 @@
+.main {
+    display: block;
+    border: 0px red solid;
+    width: 100%;
+    /* position: fixed; */
+    background-color: black;
+  
+    right: 0px;
+    transition: right 1s;
+  }
+  
+  .main_open {
+    /* right: 300px; */
+    transition: right 1s;
+  }
+  
+  
+  .main * {
+    border: 0px blue solid;
+  }
+  
+  .main_container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+  }
+  
+  .main_container div {
+    padding: 10px 20px 10px 20px;
+  }
+  
+  .main_container .logo {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .main_container .logo img {
+    width: 100%;
+    height: auto;
+  }
+
+
+  @media screen and (min-width: 768px) {
+    .main {
+      display: none;
+    }
+  }

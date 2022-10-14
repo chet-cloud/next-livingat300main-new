@@ -1,5 +1,5 @@
 import style from '../styles/post_board.module.css'
-import right_side_info from './right_side_info.js'
+import Right_side_info from './right_side_info.js'
 
 export default ()=>{
     return   <div className={style.list}>
@@ -323,7 +323,7 @@ export default ()=>{
         </div> 
     </div>
 
-    <right_side_info></right_side_info>
+    <Right_side_info />
 
   </div>
 }

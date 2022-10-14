@@ -1,10 +1,10 @@
 import style from '../styles/content_post.module.css'
 
-import social_buttons from './social_buttons.js'
-import author from './author.js'
-import related from './related.js'
-import pagination_post from './pagination_post.js'
-import right_side_info from './right_side_info.js'
+import Social_buttons from './social_buttons.js'
+import Author from './author.js'
+import Related from './related.js'
+import Pagination_post from './pagination_post.js'
+import Right_side_info from './right_side_info.js'
 
 export default ({content})=>{
     return <div className={style.list}>
@@ -15,23 +15,23 @@ export default ({content})=>{
         </div>
   
         <div className={style.post}>
-          <social_buttons></social_buttons>
+          <Social_buttons />
         </div>
   
         <div className={style.post}>
-          <author></author>
+          <Author />
         </div>
   
         <div className={style.post}>
-          <related></related>
+          <Related />
         </div>
   
         <div className={style.post}>
-        <pagination_post></pagination_post>
+        <Pagination_post />
         </div>
     </div>
   
-    <right_side_info></right_side_info>
+    <Right_side_info />
   
   </div>
 }

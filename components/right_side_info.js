@@ -1,7 +1,7 @@
 import style from '../styles/right_side_info.module.css'
 
 export default ()=>{
-    return   <div className={style.right-list}>
+    return   <div className={style.rightList}>
     <div className={style.search}>
       <p>Search</p>
       <input placeholder="Search" />
@@ -13,9 +13,9 @@ export default ()=>{
         Living at 300 Main is a community lifestyle blog celebrating the dynamic culture and spirit of downtown Winnipeg. With articles about simple living, design, the arts, events, and great food, Living at 300 Main is your partner in experiencing everything that luxury downtown apartment living has to offer. Free your time, simplify your life, and embrace your passions with Living at 300 Main.
       </p>
     </div>
-    <div className={style.social-media}> 
+    <div className={style.social_media}> 
       <p>300 Main on Social Media</p>
-      <div className={style.social-widget-icons}>
+      <div className={style.social_widget_icons}>
             <a href="https://www.facebook.com/300MainWinnipeg/" dataTitle="Facebook"><i className="fa-brands fa-facebook-f"></i></a>
             <a href="https://twitter.com/300MainWinnipeg" dataTitle="Twitter"><i className="fa-brands fa-twitter"></i></a>
             <a href="https://www.instagram.com/300MainWinnipeg/" dataTitle="Instagram"><i className="fa-brands fa-instagram"></i></a>

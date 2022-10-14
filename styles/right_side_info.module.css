@@ -6,7 +6,7 @@
     
 }
 
-.right-list .search,.about, .social-media p {
+.right-list .search,.about, .social_media p {
   color: rgb(17, 17, 17);
   font-size: 12px;
   font-weight: 700;
@@ -14,7 +14,7 @@
   margin-bottom: 30px;
   font-family: 'Open Sans', sans-serif;
 }
-.right-list .search, .about, .social-media {
+.right-list .search, .about, .social_media {
   padding-top: 30px;
   padding-bottom: 30px;
   border-bottom: 1px #ddd solid;
@@ -30,26 +30,26 @@
   font-family: 400;
   text-align: center;
 }
-.social-widget-icons {
+.social_widget_icons {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
 }
 
-.social-widget-icons a {
+.social_widget_icons a {
   font-size: 45px;
   color: black;
   text-align: center;
   margin-top: 6px;
   margin-bottom: 6px;
 }
-.social-widget-icons a:hover {
+.social_widget_icons a:hover {
   box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
 }
 
 @media screen and (min-width: 768px) {
-  .social-widget-icons a {
+  .social_widget_icons a {
     flex-basis: 30%;
   }
 }
