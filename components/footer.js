@@ -1,7 +1,7 @@
 import styles from '../styles/footer.module.css'
 
 export default ()=>{
-    return <div className={styles.footer-container}>
+    return <div className={styles.footerContainer}>
         <div className={styles.footer}>
         <div className={styles.copyright}>2021 Artis REIT. All rights reserved.</div>
         <div className={styles.footer_info}>

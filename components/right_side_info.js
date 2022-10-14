@@ -16,11 +16,11 @@ export default ()=>{
     <div className={style.social-media}> 
       <p>300 Main on Social Media</p>
       <div className={style.social-widget-icons}>
-            <a href="https://www.facebook.com/300MainWinnipeg/" class="" data-title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="https://twitter.com/300MainWinnipeg" class="" data-title="Twitter"><i class="fa-brands fa-twitter"></i></a>
-            <a href="https://www.instagram.com/300MainWinnipeg/" class="" data-title="Instagram"><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://www.youtube.com/channel/UCDVIykFuhGW9gDVBRFpIBjg" class="" data-title="YouTube"><i class="fa-brands fa-youtube"></i></a>
-            <a href="https://pin.it/19ZfT8d" class="" data-title="Pinterest"><i class="fa-brands fa-pinterest"></i></a>
+            <a href="https://www.facebook.com/300MainWinnipeg/" dataTitle="Facebook"><i className="fa-brands fa-facebook-f"></i></a>
+            <a href="https://twitter.com/300MainWinnipeg" dataTitle="Twitter"><i className="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/300MainWinnipeg/" dataTitle="Instagram"><i className="fa-brands fa-instagram"></i></a>
+            <a href="https://www.youtube.com/channel/UCDVIykFuhGW9gDVBRFpIBjg" dataTitle="YouTube"><i className="fa-brands fa-youtube"></i></a>
+            <a href="https://pin.it/19ZfT8d" dataTitle="Pinterest"><i className="fa-brands fa-pinterest"></i></a>
       </div>
     </div>
     <div className={style.link}>

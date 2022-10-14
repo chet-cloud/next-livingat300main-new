@@ -9,7 +9,7 @@ import right_side_info from './right_side_info.js'
 export default ({content})=>{
     return <div className={style.list}>
 
-    <div className={style.left-list}>
+    <div className={style.leftList}>
         <div className={style.post}>
             <article dangerouslySetInnerHTML={{ __html: content}}></article>
         </div>

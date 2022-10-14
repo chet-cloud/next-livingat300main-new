@@ -1,4 +1,4 @@
-.testimonial-board {
+.testimonialBoard {
     width: 100%;
     background-color: rgb(242, 242, 242);
   }
@@ -6,7 +6,7 @@
     border: 0px red solid;
   }
 
-  .testimonials-container {
+  .testimonialsContainer {
     margin: auto;
     max-width: 1200px;
     padding: 15px;

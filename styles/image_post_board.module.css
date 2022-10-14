@@ -1,35 +1,35 @@
-.img-board * {
+.imgBoard * {
     border: 0px red solid;
   }
 
-  .img-board {
+  .imgBoard {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
   }
 
-  .img-board .a{
+  .imgBoard .a{
     flex-basis: 100%;
   }
 
-  .img-board .b{
+  .imgBoard .b{
     flex-basis: 100%;
   }
 
-  .img-board .c{
+  .imgBoard .c{
   }
 
-  .img-board .d{
+  .imgBoard .d{
     display: flex;
     flex-wrap: nowrap;
   }
 
-  .img-board .d div{
+  .imgBoard .d div{
     flex-basis: 50%;
   }
 
   @media screen and (min-width: 768px) {
-    .img-board {
+    .imgBoard {
       flex-direction: row;
     }
   }
@@ -70,20 +70,20 @@
     text-decoration: none;
   }
   
-  .textOnImage .text-content {
+  .textOnImage .textContent {
     position: absolute;
     bottom: 0;
     
   }
 
-  .textOnImage .text-content p:first-child {
+  .textOnImage .textContent p:first-child {
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     line-height: 20px;
     font-weight: 400;
   }
 
-  .textOnImage .text-content p:nth-child(2) {
+  .textOnImage .textContent p:nth-child(2) {
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
     line-height: 36px;

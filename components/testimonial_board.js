@@ -1,11 +1,11 @@
 import style from '../styles/testimonial_board.module.css'
 
 export default ()=>{
-    return   <div className={style.testimonial-board}>
-    <div class="testimonials-container">
+    return   <div className={style.testimonialBoard}>
+    <div className={style.testimonialsContainer}>
 
       <div className={style.testimonials}>
-        <a href="https://livingat300main.ca/space-ideas-for-small-gardens/" className={style.mask-img}>
+        <a href="https://livingat300main.ca/space-ideas-for-small-gardens/" className={style.maskImg}>
           <img src="https://arwebstore.blob.core.windows.net/livingat300main-ca/2022/09/garden3-100x100.jpg" />
         </a>
         <p>
@@ -14,7 +14,7 @@ export default ()=>{
       </div>
 
       <div className={style.testimonials}>
-        <a href="https://livingat300main.ca/space-ideas-for-small-gardens/" className={style.mask-img}>
+        <a href="https://livingat300main.ca/space-ideas-for-small-gardens/" className={style.maskImg}>
           <img src="https://arwebstore.blob.core.windows.net/livingat300main-ca/2022/09/pup-6317bb23b019c-100x100.jpg" />
         </a>
         <p>
@@ -23,7 +23,7 @@ export default ()=>{
       </div>
 
       <div className={style.testimonials}>
-        <a href="https://livingat300main.ca/space-ideas-for-small-gardens/" className={style.mask-img}>
+        <a href="https://livingat300main.ca/space-ideas-for-small-gardens/" className={style.maskImg}>
           <img src="https://arwebstore.blob.core.windows.net/livingat300main-ca/2022/08/blog3-100x100.png" />
         </a>
         <p>
@@ -32,7 +32,7 @@ export default ()=>{
       </div>
 
       <div className={style.testimonials}>
-        <a href="https://livingat300main.ca/space-ideas-for-small-gardens/" className={style.mask-img}>
+        <a href="https://livingat300main.ca/space-ideas-for-small-gardens/" className={style.maskImg}>
           <img src="https://arwebstore.blob.core.windows.net/livingat300main-ca/2022/07/275864305_497564391750898_2848710138243712305_n-100x100.jpg" />
         </a>
         <p>
